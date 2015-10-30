@@ -1,0 +1,73 @@
+html {
+    height: 97%;
+}
+body {
+    min-width: 1000px;
+    height: 100%;
+    position: relative;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+li {
+    display: inline;
+}
+nav {
+    float: right;
+}
+main {
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+}
+input {
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+main .button {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+main > div {
+    margin: auto;
+    width: 500px;
+}
+main #search {
+    float: left;
+}
+main #lucky {
+    float: right;
+}
+header {
+    background-image: url("https://www.google.pl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 295px;
+    margin: auto;
+}
+header p {
+    padding-left: 235px;
+    padding-top: 80px 
+}
+footer {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer #left {
+    float: left;
+}
+footer #right {
+    float: right;
+}
+footer div {
+    display: inline;
+    text-align: center;
+}
