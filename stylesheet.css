@@ -5,6 +5,7 @@ body {
     min-width: 1000px;
     height: 100%;
     position: relative;
+    font-family: Arial, sans-serif;
 }
 ul {
     list-style-type: none;
@@ -12,10 +13,31 @@ ul {
     padding: 0;
 } 
 li {
-    display: inline;
+    display: inline-block;
 }
 nav {
     float: right;
+    margin: 15px 50px 0 0;
+}
+nav li {
+    margin: 5px;
+    font-size: 0.95em;
+}
+#grid {
+    width: 24px;
+    height: 24px;
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v1/icons/svg/ic_apps_black_24px.svg);
+    background-size: contain;
+    vertical-align: middle
+}
+nav .button {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 7px 10px 7px 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 3px;
 }
 main {
     padding-top: 200px;
@@ -26,16 +48,30 @@ input {
     width: 500px;
     height: 40px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: block;
+    border: 1px solid cornflowerblue;
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v1/icons/svg/ic_keyboard_black_24px.svg), url(https://storage.googleapis.com/material-icons/external-assets/v1/icons/svg/ic_settings_voice_black_24px.svg);
+    background-position: 440px, 470px;
+    background-repeat: no-repeat;
+    background-position: 
 }
 main .button {
     display: inline-block;
-    width: 150px;
+    width: 120px;
     text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #777;
 }
-main > div {
+main .buttons{
     margin: auto;
-    width: 500px;
+    width: 280px;
+}
+main .button {
+    padding: 7px;
+    background-color: #eee;
 }
 main #search {
     float: left;
@@ -53,21 +89,31 @@ header {
 }
 header p {
     padding-left: 235px;
-    padding-top: 80px 
+    padding-top: 80px;
+    color: blue;
+    font-size: 1.05em;
 }
 footer {
     height: 50px;
-    width: 100%;
+    margin: -15px;
     position: absolute;
+    right: 0;
+    left: 0;
     bottom: 0;
+    background-color: #eee;
 }
 footer #left {
     float: left;
+    margin-left: 20px;
 }
 footer #right {
     float: right;
+    margin-right: 20px;
 }
 footer div {
     display: inline;
     text-align: center;
+    font-size: 0.95em;
+    color: #555;
+    margin: 15px;
 }
